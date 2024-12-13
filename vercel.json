@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": []
+  "headers": [],
+  "redirects": [
+      {
+        "source": "/(.*)",
+        "destination":                 "https://yandongli.eu.org/$1",
+        "permanent": true
+  }
+]
 }
