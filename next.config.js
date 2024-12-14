@@ -119,7 +119,8 @@ const nextConfig = {
         return [
           // 确保这个规则在最前面
           {
-            source: '/:path*',
+            source:
+'^http://yandongli.eu.org/:path*',
             destination: 'https://yandongli.eu.org/:path*',
             permanent: true,
           },
