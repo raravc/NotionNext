@@ -114,24 +114,32 @@ const nextConfig = {
   // 默认将feed重定向至 /public/rss/feed.xml  
   // 并强制 HTTP 跳转到 HTTPS
   redirects: process.env.EXPORT
-    ? undefined
-    : async () => {
-        return [
-          // 确保这个规则在最前面
-          {
-            source:
-'^http://yandongli.eu.org/:path*',
-            destination: 'https://yandongli.eu.org/:path*',
-            permanent: true,
-          },
-
-          {
-            source: '/feed',
-            destination: '/rss/feed.xml',
-            permanent: true,
-          },
-        ];
-      },
+  ? undefined
+  : async () => {
+      return [
+        {
+          source: '/:path*',
+          destination: 'https://yandongli.eu.org/:path*',
+          permanent: true,
+          has: [
+            {
+              type: 'host', // 确保只应用于您的域名
+              value: 'yandongli.eu.org',
+            },
+            {
+              type: 'header',
+              key: 'x-forwarded-proto', // 检查请求协议
+              value: 'http', // 只在 HTTP 时重定向
+            },
+          ],
+        },
+        {
+          source: '/feed',
+          destination: '/rss/feed.xml',
+          permanent: true,
+        },
+      ];
+    },
 
 
 
