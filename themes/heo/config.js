@@ -49,17 +49,17 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: '/about',
+  HEO_INFO_CARD_URL1: 'https://www.yandongli.eu.org/category/%E5%85%B3%E4%BA%8E%E6%88%91',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_URL2: 'https://b23.tv/3rq3XXT',
+  HEO_INFO_CARD_ICON2: 'fa-brands fa-bilibili',
   HEO_INFO_CARD_URL3: 'https://www.yandongli.eu.org/category/%E5%85%B3%E4%BA%8E%E6%88%91',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
+      title_1: '常识',
       img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
       color_1: '#989bf8',
       title_2: 'Sketch',
@@ -67,7 +67,7 @@ const CONFIG = {
       color_2: '#ffffff'
     },
     {
-      title_1: 'Docker',
+      title_1: '言语',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
       color_1: '#57b6e6',
       title_2: 'Photoshop',
@@ -75,7 +75,7 @@ const CONFIG = {
       color_2: '#4082c3'
     },
     {
-      title_1: 'FinalCutPro',
+      title_1: '图推',
       img_1: '/images/heo/20233e777652412247dd57fd9b48cf997c01070702.webp',
       color_1: '#ffffff',
       title_2: 'Python',
@@ -83,7 +83,7 @@ const CONFIG = {
       color_2: '#ffffff'
     },
     {
-      title_1: 'Swift',
+      title_1: '判断推理',
       img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
       color_1: '#eb6840',
       title_2: 'Principle',
@@ -91,7 +91,7 @@ const CONFIG = {
       color_2: '#8f55ba'
     },
     {
-      title_1: 'illustrator',
+      title_1: '图推',
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
       color_1: '#f29e39',
       title_2: 'CSS3',
@@ -99,7 +99,7 @@ const CONFIG = {
       color_2: '#2c51db'
     },
     {
-      title_1: 'JS',
+      title_1: '申论',
       img_1: '/images/heo/2023786e7fc488f453d5fb2be760c96185c0075502.webp',
       color_1: '#f7cb4f',
       title_2: 'HTML',
@@ -107,7 +107,7 @@ const CONFIG = {
       color_2: '#e9572b'
     },
     {
-      title_1: 'Git',
+      title_1: '面试',
       img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
       color_1: '#df5b40',
       title_2: 'Rhino',
@@ -118,9 +118,9 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
+  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论学习',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_URL: 'https://www.yandongli.eu.org/article/15db7c2d-0e98-807f-88d6-f9e17e5f9a89',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
