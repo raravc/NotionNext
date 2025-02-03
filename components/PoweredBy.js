@@ -12,7 +12,7 @@ export default function PoweredBy(props) {
       <a
         href='#'
         className='underline justify-start'>
-        NotionNext
+        GKLD
       </a>
       .
     </div>
