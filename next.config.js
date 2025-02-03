@@ -119,12 +119,12 @@ const nextConfig = {
       return [
         {
           source: '/:path*',
-          destination: 'https://yandongli.eu.org/:path*',
+          destination: 'https://gkld.us.kg/:path*',
           permanent: true,
           has: [
             {
               type: 'host', // 确保只应用于您的域名
-              value: 'yandongli.eu.org',
+              value: 'gkld.us.kg',
             },
             {
               type: 'header',
