@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到公考雷达', url: 'https://www.yandongli.eu.org' },
-    { title: '联系我们获取更多帮助', url: 'https://www.yandongli.eu.org/category/%E5%85%B3%E4%BA%8E%E6%88%91' }
+    { title: '欢迎来到公考雷达', url: 'https://gkld.us.kg' },
+    { title: '联系我们获取更多帮助', url: 'https://gkld.us.kg/category/关于我' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,7 +20,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享知识',
   HEO_HERO_TITLE_2: '与做题技巧',
-  HEO_HERO_TITLE_3: 'YANDONGLI.EU.ORG',
+  HEO_HERO_TITLE_3: 'GKLD.US.KG',
   HEO_HERO_TITLE_4: '助您上岸',
   HEO_HERO_TITLE_5: '多维度提供考公辅导信息',
   HEO_HERO_TITLE_LINK: 'https://yandongli.eu.org',
@@ -49,7 +49,7 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: 'https://www.yandongli.eu.org/category/%E5%85%B3%E4%BA%8E%E6%88%91',
+  HEO_INFO_CARD_URL1: 'https://gkld.us.kg/article/15db7c2d-0e98-807f-88d6-f9e17e5f9a89',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://b23.tv/3rq3XXT',
   HEO_INFO_CARD_ICON2: 'fa-brands fa-bilibili',
@@ -120,7 +120,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论学习',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://www.yandongli.eu.org/article/15db7c2d-0e98-807f-88d6-f9e17e5f9a89',
+  HEO_SOCIAL_CARD_URL: 'https://gkld.us.kg/article/15db7c2d-0e98-807f-88d6-f9e17e5f9a89',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
