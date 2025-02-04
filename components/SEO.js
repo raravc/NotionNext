@@ -55,7 +55,11 @@ const SEO = props => {
   const category = meta?.category || siteConfig('KEYWORDS') // section 主要是像是 category 這樣的分類，Facebook 用這個來抓連結的分類
   const favicon = siteConfig('BLOG_FAVICON')
   const BACKGROUND_DARK = siteConfig('BACKGROUND_DARK', '', NOTION_CONFIG)
-
+  const SEO_BING_SITE_VERIFICATION = siteConfig(
+    'SEO_BING_SITE_VERIFICATION',
+    null,
+    NOTION_CONFIG
+  )
   const SEO_BAIDU_SITE_VERIFICATION = siteConfig(
     'SEO_BAIDU_SITE_VERIFICATION',
     null,
@@ -64,13 +68,6 @@ const SEO = props => {
 
   const SEO_GOOGLE_SITE_VERIFICATION = siteConfig(
     'SEO_GOOGLE_SITE_VERIFICATION',
-    null,
-    NOTION_CONFIG
-  )
-
-  // 添加必应验证变量
-  const SEO_BING_SITE_VERIFICATION = siteConfig(
-    'SEO_BING_SITE_VERIFICATION',
     null,
     NOTION_CONFIG
   )
@@ -112,6 +109,12 @@ const SEO = props => {
       />
       <meta name='robots' content='follow, index' />
       <meta charSet='UTF-8' />
+      {SEO_BING_SITE_VERIFICATION && (
+        <meta
+          name='msvalidate.01'
+          content={SEO_BING_SITE_VERIFICATION}
+        />
+      )}
       {SEO_GOOGLE_SITE_VERIFICATION && (
         <meta
           name='google-site-verification'
@@ -122,13 +125,6 @@ const SEO = props => {
         <meta
           name='baidu-site-verification'
           content={SEO_BAIDU_SITE_VERIFICATION}
-        />
-      )}
-      {/* 添加必应验证 meta 标签 */}
-      {SEO_BING_SITE_VERIFICATION && (
-        <meta
-          name='msvalidate.01'
-          content={SEO_BING_SITE_VERIFICATION}
         />
       )}
       <meta name='keywords' content={keywords} />
